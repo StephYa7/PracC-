@@ -7,8 +7,15 @@ int n = int.Parse(ReadLine());
 int t = 10;
 
 
+
+WriteLine(Get3(n));
+
+
+string Get3(int n)
+{
+
 if ( n / 100 < 1 ) {
-    WriteLine("Тут нет трех цифр"); return;
+    return("Тут нет трех цифр");
 }
 
  
@@ -19,5 +26,5 @@ if ( n / 100 < 1 ) {
    
      t = t * 10 ;
  }
-          WriteLine(( n % (t / 10)) / (t /100) );
-   
+          return $"{(( n % (t / 10)) / (t /100) )}";
+}

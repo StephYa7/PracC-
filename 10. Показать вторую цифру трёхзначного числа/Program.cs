@@ -8,11 +8,14 @@ int f = n % 10;
 
 int c = n - f ;
 
-if ((n>1000) || (n<100))
+WriteLine(Get2(n));
+
+
+string Get2(int n){
+    if ((n>1000) || (n<100))
 {
-    WriteLine("Это не трехзначное число. "); return;
+    return ("Это не трехзначное число. ");
 }
 
-WriteLine((c % 100)/10);
-
-
+return $"{c % 100/10}" ;
+}
