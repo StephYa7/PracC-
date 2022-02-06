@@ -8,7 +8,7 @@ int t = 10;
 
 
 if ( n / 100 < 1 ) {
-    WriteLine("Тут нет трех цифр");
+    WriteLine("Тут нет трех цифр"); return;
 }
 
  

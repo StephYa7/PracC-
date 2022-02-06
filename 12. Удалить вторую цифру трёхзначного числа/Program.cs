@@ -8,7 +8,10 @@ int f = n / 100;
 
 int c = n % 10 ;
 
-
+if ((n>1000) || (n<100))
+{
+    WriteLine("Это не трехзначное число. "); return;
+}
 
 WriteLine(f * 10 + c );
 
