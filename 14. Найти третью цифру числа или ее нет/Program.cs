@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 
-WriteLine("Введи любое число, и я напишу третью цифру в ней: ");
+WriteLine("Введи любое число, и я напишу третью цифру в нём: ");
 
 int n = int.Parse(ReadLine());
 

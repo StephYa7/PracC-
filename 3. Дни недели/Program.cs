@@ -19,9 +19,6 @@ Console.Write(" А вторник еще тяжелеей :`-( ") ;
 else if ( x == 3 ){
 Console.Write(" Среда, терпи ( ") ;
 }
-else if ( x == 3 ){
-Console.Write(" Среда, терпи ( ") ;
-}
 else if ( x == 4 ){
 Console.Write(" Четверг это маленькая пятница ) ") ;
 }
