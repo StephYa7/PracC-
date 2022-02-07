@@ -4,7 +4,7 @@ WriteLine("Введи любое число, и я напишу третью ц�
 
 int n = int.Parse(ReadLine());
 
-int t = 10;
+
 
 
 
@@ -13,6 +13,7 @@ WriteLine(Get3(n));
 
 string Get3(int n)
 {
+int t = 10;
 
 if ( n / 100 < 1 ) {
     return("Тут нет трех цифр");
